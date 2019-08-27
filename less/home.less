@@ -132,5 +132,46 @@
 		}
 	}
 
-	
+	.services {
+		display: flex;
+		width: 90%;
+		// border: .1rem solid red;
+		padding: 4rem 0;
+		// margin-bottom: 3rem;
+		margin: 0 auto;
+		justify-content: space-between;
+
+		.service {
+			width: 25%;
+			// background: #65636A;
+			// border: .1rem solid;
+			display: flex;
+			margin-left: 2rem;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			box-shadow: 2px 3px 8px lighten(grey, 20%);
+			padding: 2rem 0;
+
+			h4 {
+				font-family: 'Lato', serif;
+			}
+
+			img {
+				margin-top: 1rem;
+				height: 8.5rem;
+			}
+		}
+		&.paragraph {
+			padding: 0;
+			border-bottom: 0.1rem solid lighten(@lightGrey, 30%);
+			text-align: right;
+			display: flex;
+			justify-content: flex-end;
+			margin-bottom: 4rem;
+			font-family: 'Tangerine', cursive;
+			font-size: 1.6rem;
+		}
+	}
 }

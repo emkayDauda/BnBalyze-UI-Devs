@@ -236,3 +236,38 @@ table {
 .root .reviews .review .bio .details h6 {
   font-family: cursive;
 }
+.root .services {
+  display: flex;
+  width: 90%;
+  padding: 4rem 0;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.root .services .service {
+  width: 25%;
+  display: flex;
+  margin-left: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 2px 3px 8px #b3b3b3;
+  padding: 2rem 0;
+}
+.root .services .service h4 {
+  font-family: 'Lato', serif;
+}
+.root .services .service img {
+  margin-top: 1rem;
+  height: 8.5rem;
+}
+.root .services.paragraph {
+  padding: 0;
+  border-bottom: 0.1rem solid #b2b0b6;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 4rem;
+  font-family: 'Tangerine', cursive;
+  font-size: 1.6rem;
+}
