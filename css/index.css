@@ -271,3 +271,42 @@ table {
   font-family: 'Tangerine', cursive;
   font-size: 1.6rem;
 }
+.root footer {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.root footer .links {
+  display: flex;
+}
+.root footer .links div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 7rem;
+  margin-bottom: 3rem;
+}
+.root footer .links div h4 {
+  margin-bottom: 0.6rem;
+}
+.root footer .links div a {
+  text-decoration: none;
+  margin: 0.5rem 0;
+  color: #5a5a5a;
+  transition: 0.3s ease-in-out;
+}
+.root footer .links div a:hover {
+  letter-spacing: 0.03rem;
+  transition: 0.3s ease-in-out;
+  color: #c00006;
+}
+.root footer .newsletter h4 {
+  margin-bottom: 0.6rem;
+}
+.root footer .newsletter input {
+  background-color: transparent;
+  border: 0.1rem solid #65636A;
+  border-radius: 0.2rem;
+  width: 100%;
+  padding: 0.2rem 0.2rem;
+}
