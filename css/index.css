@@ -124,7 +124,7 @@ table {
   border-spacing: 0;
 }
 .root {
-  font-family: 'Roboto' serif;
+  font-family: "Roboto" serif;
 }
 .root nav {
   display: flex;
@@ -135,7 +135,7 @@ table {
 }
 .root nav h4 {
   font-size: 2rem;
-  font-family: 'Tangerine', serif;
+  font-family: "Tangerine", serif;
 }
 .root nav a {
   text-decoration: none;
@@ -161,7 +161,7 @@ table {
   width: 60%;
   text-align: center;
   margin: 1rem auto;
-  color: #65636A;
+  color: #65636a;
 }
 .root header button {
   margin: 0.3rem auto;
@@ -193,7 +193,7 @@ table {
   margin: 0.3rem auto;
   font-size: 1.8rem;
   color: #65636A;
-  font-family: 'Tangerine', serif;
+  font-family: "Tangerine", serif;
 }
 .root .reviews {
   display: flex;
@@ -212,7 +212,7 @@ table {
 .root .reviews .review h1 {
   color: blue;
   font-size: 4rem;
-  font-family: 'Tangerine', cursive;
+  font-family: "Tangerine", cursive;
 }
 .root .reviews .review .bio {
   margin: 0.5rem 0;
@@ -230,7 +230,7 @@ table {
   margin-left: 0.5rem;
 }
 .root .reviews .review .bio .details h5 {
-  font-family: 'Tangerine', serif;
+  font-family: "Tangerine", serif;
   font-size: 2rem;
 }
 .root .reviews .review .bio .details h6 {
@@ -255,7 +255,7 @@ table {
   padding: 2rem 0;
 }
 .root .services .service h4 {
-  font-family: 'Lato', serif;
+  font-family: "Lato", serif;
 }
 .root .services .service img {
   margin-top: 1rem;
@@ -268,7 +268,7 @@ table {
   display: flex;
   justify-content: flex-end;
   margin-bottom: 4rem;
-  font-family: 'Tangerine', cursive;
+  font-family: "Tangerine", cursive;
   font-size: 1.6rem;
 }
 .root footer {
