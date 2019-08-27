@@ -123,6 +123,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.root {
+  font-family: 'Roboto' serif;
+}
 .root nav {
   display: flex;
   align-items: baseline;
@@ -132,6 +135,7 @@ table {
 }
 .root nav h4 {
   font-size: 2rem;
+  font-family: 'Tangerine', serif;
 }
 .root nav a {
   text-decoration: none;
@@ -164,6 +168,7 @@ table {
   background: #ff5a5f;
   border-radius: 0.7rem;
   color: white;
+  font-size: 1.5rem;
   padding: 0.5rem 2.5rem;
   transition: 0.3s ease-in-out;
 }
@@ -177,14 +182,57 @@ table {
 .root .intro {
   display: flex;
   flex-direction: column;
+  margin-top: 5rem;
 }
 .root .intro h6 {
   margin: 0 auto;
   font-size: 0.7rem;
 }
 .root .intro h1 {
-  width: 80%;
+  width: 60%;
   margin: 0.3rem auto;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   color: #65636A;
+  font-family: 'Tangerine', serif;
+}
+.root .reviews {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 4rem;
+  width: 90%;
+  line-height: 2rem;
+  border-top: 0.1rem solid #b2b0b6;
+}
+.root .reviews .review {
+  width: 50%;
+  margin: 0 1rem;
+  padding-bottom: 2rem;
+  border-bottom: 0.1rem solid #b2b0b6;
+}
+.root .reviews .review h1 {
+  color: blue;
+  font-size: 4rem;
+  font-family: 'Tangerine', cursive;
+}
+.root .reviews .review .bio {
+  margin: 0.5rem 0;
+  display: flex;
+  line-height: 1rem;
+  justify-content: start;
+  align-items: center;
+}
+.root .reviews .review .bio img {
+  width: 15%;
+  background: #65636A;
+  border-radius: 2rem;
+}
+.root .reviews .review .bio .details {
+  margin-left: 0.5rem;
+}
+.root .reviews .review .bio .details h5 {
+  font-family: 'Tangerine', serif;
+  font-size: 2rem;
+}
+.root .reviews .review .bio .details h6 {
+  font-family: cursive;
 }
