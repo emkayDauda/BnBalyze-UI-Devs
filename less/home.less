@@ -255,6 +255,30 @@
       font-family: "Tangerine", cursive;
       font-size: 1.6rem;
     }
+
+    @media @tablet {
+      width: 100%;
+      padding: 2rem 1rem;
+      flex-wrap: wrap;
+      
+      .service {
+        width: 45%;
+        margin: 2rem 0;
+        border-radius: 1rem;
+      }
+      
+    }
+
+    @media @mobile {
+      width: 100%;
+      padding: 2rem 1rem;
+
+      .service {
+        width: 90%;
+        border-radius: 1rem;
+        margin: 1rem auto;
+      }
+    }
   }
 
   footer {

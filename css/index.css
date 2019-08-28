@@ -345,6 +345,29 @@ table {
   font-family: "Tangerine", cursive;
   font-size: 1.6rem;
 }
+@media (max-width: 800px) {
+  .root .services {
+    width: 100%;
+    padding: 2rem 1rem;
+    flex-wrap: wrap;
+  }
+  .root .services .service {
+    width: 45%;
+    margin: 2rem 0;
+    border-radius: 1rem;
+  }
+}
+@media (max-width: 500px) {
+  .root .services {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+  .root .services .service {
+    width: 90%;
+    border-radius: 1rem;
+    margin: 1rem auto;
+  }
+}
 .root footer {
   display: flex;
   width: 90%;
