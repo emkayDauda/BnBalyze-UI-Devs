@@ -150,6 +150,22 @@ table {
 .root nav .links a {
   margin-left: 1.5rem;
 }
+@media (max-width: 500px) {
+  .root nav {
+    flex-direction: column;
+    padding: 0 0.5rem;
+  }
+  .root nav .links {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  .root nav .links a {
+    margin: 0.3rem 0;
+    font-family: 'Lato', serif;
+  }
+}
 .root header {
   margin: 1rem;
   display: flex;
