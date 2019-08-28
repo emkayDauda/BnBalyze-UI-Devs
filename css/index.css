@@ -276,6 +276,7 @@ table {
 .root .reviews .review .bio img {
   width: 15%;
   background: #65636A;
+  min-width: 2.5rem;
   border-radius: 2rem;
 }
 .root .reviews .review .bio .details {
@@ -284,6 +285,7 @@ table {
 .root .reviews .review .bio .details h5 {
   font-family: "Tangerine", serif;
   font-size: 2rem;
+  margin-bottom: 0.4rem;
 }
 .root .reviews .review .bio .details h6 {
   font-family: cursive;
