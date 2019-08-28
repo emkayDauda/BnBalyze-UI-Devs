@@ -331,5 +331,42 @@
         padding: 0.2rem 0.2rem;
       }
     }
+
+    @media @tablet {
+      flex-direction: column;
+
+     .newsletter {
+       width: 80%;
+       margin: 0 auto;
+      input {
+        width: 100%;
+      }
+     }
+
+      .links {
+        // flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 0;
+        margin-top: 3rem;
+        justify-content: space-between;
+
+        div {
+          width: 45%;
+          // border: 1px solid;
+          // align-items: flex-end;
+          margin-left: 0;
+
+        }
+      }
+    }
+
+    @media @mobile {
+      
+      .links {
+        div {
+          width: 40%;
+        }
+      }
+    }
   }
 }

@@ -407,3 +407,30 @@ table {
   width: 100%;
   padding: 0.2rem 0.2rem;
 }
+@media (max-width: 800px) {
+  .root footer {
+    flex-direction: column;
+  }
+  .root footer .newsletter {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .root footer .newsletter input {
+    width: 100%;
+  }
+  .root footer .links {
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-top: 3rem;
+    justify-content: space-between;
+  }
+  .root footer .links div {
+    width: 45%;
+    margin-left: 0;
+  }
+}
+@media (max-width: 500px) {
+  .root footer .links div {
+    width: 40%;
+  }
+}
