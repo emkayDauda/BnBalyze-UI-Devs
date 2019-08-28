@@ -195,6 +195,24 @@ table {
   padding: 1rem;
   cursor: pointer;
 }
+@media (max-width: 800px) {
+  .root header h1 {
+    width: 80%;
+    font-size: 2.3rem;
+  }
+  .root header button {
+    width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  .root header h1 {
+    width: 90%;
+    font-size: 2rem;
+  }
+  .root header button {
+    width: 90%;
+  }
+}
 .root .intro {
   display: flex;
   flex-direction: column;
@@ -210,6 +228,24 @@ table {
   font-size: 1.8rem;
   color: #65636A;
   font-family: "Tangerine", serif;
+}
+@media (max-width: 800px) {
+  .root .intro {
+    margin-top: 3rem;
+  }
+  .root .intro h1 {
+    width: 80%;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .root .intro {
+    margin-top: 1.5rem;
+  }
+  .root .intro h1 {
+    width: 90%;
+    text-align: center;
+  }
 }
 .root .reviews {
   display: flex;
@@ -251,6 +287,26 @@ table {
 }
 .root .reviews .review .bio .details h6 {
   font-family: cursive;
+}
+@media (max-width: 800px) {
+  .root .reviews {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .root .reviews .review {
+    width: 43%;
+    margin: 0 auto 1.5rem;
+  }
+}
+@media (max-width: 500px) {
+  .root .reviews {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .root .reviews .review {
+    width: 80%;
+    margin: 0 auto 2rem;
+  }
 }
 .root .services {
   display: flex;

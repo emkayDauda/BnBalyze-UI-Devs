@@ -80,6 +80,29 @@
         cursor: pointer;
       }
     }
+
+    @media @tablet {
+      h1{
+        width: 80%;
+        font-size: 2.3rem;
+      }
+
+      button {
+        width: 80%;
+      }
+      
+    }
+
+    @media @mobile {
+      h1 {
+        width: 90%;
+        font-size: 2rem;
+      }    
+
+      button {
+        width: 90%;
+      }
+    }
   }
 
   .intro {
@@ -97,6 +120,24 @@
       font-size: 1.8rem;
       color: @lightGrey;
       font-family: "Tangerine", serif;
+    }
+
+    @media @tablet {
+      margin-top: 3rem;
+
+      h1 {
+        width: 80%;
+        text-align: center;
+      }
+    }
+
+    @media @mobile {
+      margin-top: 1.5rem;
+
+      h1 {
+        width: 90%;
+        text-align: center;
+      }
     }
   }
 
@@ -147,6 +188,27 @@
           }
         }
       }
+    }
+
+    @media @tablet {
+      flex-wrap: wrap;
+      width: 100%;
+
+      .review {
+        width: 43%;
+        margin: 0 auto 1.5rem;
+      }
+    }
+
+    @media @mobile {
+      flex-wrap: wrap;
+      width: 100%;
+
+      .review {
+        width: 80%;
+        margin: 0 auto 2rem;
+      }
+      
     }
   }
 
