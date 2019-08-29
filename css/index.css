@@ -440,7 +440,7 @@ table {
 .root .team {
   display: grid;
   margin: 0 auto 4rem;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
   grid-auto-rows: minmax(30rem, auto);
 }
@@ -472,8 +472,14 @@ table {
 }
 .root .team .team-member .team-member-inner .team-member-front img,
 .root .team .team-member .team-member-inner .team-member-back img {
-  height: 25rem;
+  height: 20rem;
   width: 90%;
+  border-radius: 30rem;
+}
+.root .team .team-member .team-member-inner .team-member-front h3 {
+  font-family: 'Lato', serif;
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
 }
 .root .team .team-member .team-member-inner .team-member-back {
   background-color: dodgerblue;
