@@ -476,6 +476,11 @@ table {
   width: 90%;
   border-radius: 30rem;
 }
+.root .team .team-member .team-member-inner .team-member-front {
+  border-radius: 2rem;
+  border: 0.1rem solid dodgerblue;
+  height: 80%;
+}
 .root .team .team-member .team-member-inner .team-member-front h3 {
   font-family: 'Lato', serif;
   font-size: 1.5rem;
@@ -516,6 +521,10 @@ table {
 }
 .root .team .team-member:hover .team-member-inner {
   transform: rotateY(180deg);
+}
+.root .team .team-member:hover .team-member-inner .team-member-front {
+  visibility: hidden;
+  transition-duration: 0.1s;
 }
 @media (max-width: 800px) {
   .root .team {

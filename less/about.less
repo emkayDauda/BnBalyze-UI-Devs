@@ -43,6 +43,9 @@
           }
 
           .team-member-front {
+            border-radius: 2rem;
+            border: .1rem solid dodgerblue;
+            height: 80%;         
             h3 {
               font-family: 'Lato', serif;
               font-size: 1.5rem;
@@ -92,6 +95,10 @@
         &:hover{
             .team-member-inner {
                 transform: rotateY(180deg);
+                .team-member-front {
+                  visibility: hidden;
+                  transition-duration: .1s;
+                }
             }
         }
     
