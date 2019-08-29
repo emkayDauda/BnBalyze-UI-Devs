@@ -179,6 +179,9 @@ table {
   margin: 1rem auto;
   color: #65636a;
 }
+.root header img {
+  height: 25rem;
+}
 .root header button {
   margin: 0.3rem auto;
   background: #ff5a5f;
@@ -433,4 +436,56 @@ table {
   .root footer .links div {
     width: 40%;
   }
+}
+.root .team {
+  display: grid;
+  width: 90%;
+  margin: 0 auto 4rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.5rem;
+}
+.root .team-member {
+  perspective: 1000px;
+  -moz-perspective: 1000px;
+  background-color: transparent;
+  width: 30rem;
+  height: 30rem;
+}
+.root .team-member .team-member-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  -moz-transition: transform 0.8s;
+  -webkit-transition: transform 0.8s;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+}
+.root .team-member .team-member-inner .team-member-front,
+.root .team-member .team-member-inner .team-member-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+}
+.root .team-member .team-member-inner .team-member-front img,
+.root .team-member .team-member-inner .team-member-back img {
+  height: 25rem;
+  width: 90%;
+}
+.root .team-member .team-member-inner .team-member-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+  height: 80%;
+  width: 90%;
+}
+.root .team-member:hover .team-member-inner {
+  transform: rotateY(180deg);
+}
+.root footer {
+  border-top: 0.1rem #65636A solid;
+  padding-top: 2rem;
 }
